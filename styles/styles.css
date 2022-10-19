@@ -2,12 +2,37 @@ body{
   text-align: center;
   margin: 0;
   margin-top: 0;
+  background-color: #000000;
+  color: #FB2576;
 }
 
 .top-container{
-  background-color: #E4F9F5;
-  padding: 20px;
+  padding-top:  30px;
+  font-family: 'Sacramento', sans-serif;
+  background-color: #150050;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h1 {
+  font-size: 70px;
 }
 
 .top-cloud{
+  position: absolute;
+  right: 25%;
+  top: 30px;
 }
+
+.bottom-cloud{
+  position: absolute;
+  left: 25%;
+}
+
+.mountain{
+  position: relative;
+  bottom: 0;
+}
+
+
+/* #E4F9F5 */
