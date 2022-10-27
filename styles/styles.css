@@ -42,5 +42,24 @@ h2 {
   bottom: 0;
 }
 
+.skill-row{
+  /* display: inline-block; */
+  width: 50%;
+  margin: auto;
+}
+
+.skills{
+  margin: 100px auto;
+}
+
+.giphy-embed{
+  width: 480px;
+  height: 480px;
+}
+
+.dandd{
+  text-align: left;
+}
+
 
 /* #E4F9F5 */
