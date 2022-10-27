@@ -4,23 +4,26 @@ body{
   margin-top: 0;
   background-color: #000000;
   color: #FB2576;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .top-container{
-  padding-top:  30px;
+  padding-top:  90px;
   background-color: #150050;
-  margin-bottom: 0;
   padding-bottom: 0;
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 5.625rem;
   font-family: 'Sacramento', sans-serif;
-
+  /* margin-top: 0px; */
+  margin-bottom: 0px;
 }
 
-body {
-  font-family: 'Merriweather', sans-serif;
+h2 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 .top-cloud{
