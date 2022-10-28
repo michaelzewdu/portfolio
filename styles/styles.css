@@ -3,8 +3,8 @@ body{
   margin: 0;
   margin-top: 0;
   background-color: #000000;
-  color: #FB2576;
   font-family: 'Merriweather', sans-serif;
+  color: white;
 }
 
 .top-container{
@@ -23,12 +23,16 @@ h1 {
   font-family: 'Sacramento', sans-serif;
   /* margin-top: 0px; */
   margin-bottom: 0px;
+  color: #FB2576;
+
 }
 
 h2 {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+  color: #FB2576;
+
 }
 
 .top-cloud{
@@ -63,7 +67,6 @@ h2 {
 }
 
 .skill-row{
-  text-align: left;
   display: inline-block;
 }
 
@@ -77,41 +80,39 @@ hr{
 }
 
 .contact-me-btn {
-   background: #150050;
-   background-image: -webkit-linear-gradient(top, #150050, #441DB1);
-   background-image: -moz-linear-gradient(top, #150050, #441DB1);
-   background-image: -ms-linear-gradient(top, #150050, #441DB1);
-   background-image: -o-linear-gradient(top, #150050, #441DB1);
-   background-image: -webkit-gradient(to bottom, #150050, #441DB1);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #ffffff;
    font-family: Courier New;
    font-size: 20px;
    font-weight: 400;
    padding: 12px;
-   -webkit-box-shadow: 1px 1px 20px 0 #000000;
-   -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 1px 1px 20px 0 #000000;
-   text-shadow: 1px 1px 20px #000000;
-   border: solid #383838 1px;
+   border-color-hover: ;
+   border-style-hover: solid;
+   border-width-hover: 1;
+   background-color: #FB2576;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
    text-align: center;
+   margin: 1rem;
 }
 
 .contact-me-btn:hover {
-   background: #1E62D0;
-   border: solid #0800D7 1px;
+   background: #150050;
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
    text-decoration: none;
+   /* margin: 1rem; */
 }
 
 .copyright{
   margin-bottom: 0px;
+}
+
+.universal-padding{
+  padding: 1em;
 }
 /* #E4F9F5 */
