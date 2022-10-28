@@ -3,7 +3,7 @@ body{
   margin: 0;
   margin-top: 0;
   background-color: #000000;
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -11,11 +11,12 @@ body{
   padding-top:  90px;
   background-color: #150050;
   padding-bottom: 0;
+  margin-bottom: 2rem;
 }
 
 .bottom-container{
   background-color: #150050;
-  margin-bottom:
+  padding: 3rem 0 2rem;
 }
 
 h1 {
@@ -75,6 +76,7 @@ hr{
   border-style: dotted;
   width: 6%;
   border-color: #150050;
+  margin: 6rem auto;
   /* background-color: #150050; */
 }
 
@@ -113,5 +115,17 @@ hr{
 
 .universal-padding{
   padding: 1em;
+}
+
+a{
+  margin: auto 1rem;
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+a:hover{
+  color: #FB2576;
 }
 /* #E4F9F5 */
