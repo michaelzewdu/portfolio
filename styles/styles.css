@@ -13,6 +13,11 @@ body{
   padding-bottom: 0;
 }
 
+.bottom-container{
+  background-color: #150050;
+  margin-bottom:
+}
+
 h1 {
   font-size: 5.625rem;
   font-family: 'Sacramento', sans-serif;
@@ -49,7 +54,7 @@ h2 {
 }
 
 .skills{
-  margin: 100px auto;
+  /* margin: 100px auto; */
 }
 
 .giphy-embed{
@@ -57,9 +62,56 @@ h2 {
   height: 480px;
 }
 
-.dandd{
+.skill-row{
   text-align: left;
+  display: inline-block;
 }
 
+hr{
+  border-color: white;
+  border-width: 6px 0 0 0;
+  border-style: dotted;
+  width: 6%;
 
+  background-color: #150050;
+}
+
+.contact-me-btn {
+   background: #150050;
+   background-image: -webkit-linear-gradient(top, #150050, #441DB1);
+   background-image: -moz-linear-gradient(top, #150050, #441DB1);
+   background-image: -ms-linear-gradient(top, #150050, #441DB1);
+   background-image: -o-linear-gradient(top, #150050, #441DB1);
+   background-image: -webkit-gradient(to bottom, #150050, #441DB1);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Courier New;
+   font-size: 20px;
+   font-weight: 400;
+   padding: 12px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #383838 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-me-btn:hover {
+   background: #1E62D0;
+   border: solid #0800D7 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.copyright{
+  margin-bottom: 0px;
+}
 /* #E4F9F5 */
