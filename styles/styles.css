@@ -8,7 +8,7 @@ body{
 }
 
 .top-container{
-  padding-top:  90px;
+  padding-top:  75px;
   background-color: #150050;
   padding-bottom: 0;
   margin-bottom: 2rem;
@@ -38,13 +38,13 @@ h2 {
 
 .top-cloud{
   position: absolute;
-  right: 25%;
-  top: 30px;
+  right: 10%;
+  top: 100px;
 }
 
 .bottom-cloud{
   position: absolute;
-  left: 25%;
+  left: 10%;
 }
 
 .mountain{
@@ -129,3 +129,7 @@ a:hover{
   color: #FB2576;
 }
 /* #E4F9F5 */
+
+.navbar{
+  background-color: #e1edf9;
+}
